@@ -1,0 +1,15 @@
+#maximum and minmum digits from the given number
+n=int(input("enter the n value:"))
+big=0
+small=10
+while n>0:
+    rem=n%10
+    if rem>big:
+        big=rem
+    if rem<small:
+        small=rem
+    n=n//10
+print(big,small)
+
+    
+
